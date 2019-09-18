@@ -1,7 +1,6 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+puts "Creating posts"
+(1..10).each do |n|
+  Post.create!(title: "#{n}-#{Faker::Lorem.sentence.upcase.capitalize}", body: Faker::Lorem.paragraph)
+end
+
+puts "Created #{Post.count} with success" if Post.any?
