@@ -17,6 +17,8 @@ gem 'uglifier',          '>= 1.3.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'faker', '~> 2.3'
+  gem 'pry-rails', '~> 0.3.9'
 end
 
 group :development do
