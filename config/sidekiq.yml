@@ -1,0 +1,4 @@
+:schedule:
+  posts_display:
+    class: PostsDisplayJob
+    every: '15s'
