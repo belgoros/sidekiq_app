@@ -35,5 +35,7 @@ You should see in the `Tab 2` the below output (time and pid values will be diff
 2019-09-18 15:19:37 UTC: Found posts: 10
 ```
 
+You ca also visualize Sidekiq Web UI dashboard by pointing your browser to `localhost:3000/sidekiq`.
+
 Enjoy!
 
