@@ -2,7 +2,7 @@
 
 ### Used libraries
 
-- ruby `2.6.3`
+- ruby `2.6.5`
 - rails `5.2.3`
 - sidekiq
 - sidekiq-scheduler
