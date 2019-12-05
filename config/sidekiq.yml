@@ -1,4 +1,5 @@
 :schedule:
   posts_display:
     class: PostsDisplayJob
-    every: '15s'
+    cron: '0 40 10,11 * * 1-5 Europe/Brussels'
+

@@ -2,6 +2,7 @@ class PostsDisplayJob < ApplicationJob
   queue_as :default
 
   def perform(*args)
-    puts "#{Time.current}: Found posts: #{Post.count}"
+    Rails.logger.info "#{Time.current}: Found posts: #{Post.count}"
+    #puts "#{Time.current}: Found posts: #{Post.count}"
   end
 end
