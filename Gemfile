@@ -6,7 +6,7 @@ ruby '2.6.5'
 gem 'bootsnap',          '>= 1.1.0', require: false
 gem 'coffee-rails',      '~> 4.2'
 gem 'jbuilder',          '~> 2.5'
-gem 'puma',              '~> 4.1', '>= 4.1.1'
+gem 'puma',              '~> 4.3'
 gem 'rails',             '~> 5.2.3'
 gem 'sass-rails',        '~> 5.0'
 gem 'sidekiq',           '~> 6.0'
