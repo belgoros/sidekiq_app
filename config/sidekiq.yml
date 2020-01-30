@@ -1,5 +1,5 @@
 :schedule:
   posts_display:
     class: PostsDisplayJob
-    cron: '0 40 10,11 * * 1-5 Europe/Brussels'
+    cron: '0 0 16 * * 1-5 Europe/Paris'
 
