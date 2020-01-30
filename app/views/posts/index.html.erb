@@ -1,0 +1,10 @@
+<% if @posts.empty? %>
+  <h1> No posts found</h1>
+ <% else %>
+  <h1>Listing posts</h1>
+  <ul>
+    <% @posts.each do |post|%>
+      <li><b><%= post.title %>:</b><i><%= post.body %></i></li>
+    <% end %>
+  </ul>
+<% end %>
