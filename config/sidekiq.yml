@@ -1,5 +1,4 @@
 :schedule:
   posts_display:
     class: PostsDisplayJob
-    cron: '0 0 16 * * 1-5 Europe/Paris'
-
+    cron: '0 22 * * 1-5 Europe/Paris' #every day of the week when it's 22:00 in Paris
