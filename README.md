@@ -32,4 +32,3 @@ Navigate to `localhost:3000/posts` to see 10 created posts.
 You ca also visualize Sidekiq Web UI dashboard by pointing your browser to `localhost:3000/sidekiq`.
 
 Enjoy!
-
