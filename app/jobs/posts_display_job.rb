@@ -3,6 +3,5 @@ class PostsDisplayJob < ApplicationJob
 
   def perform(*args)
     Rails.logger.info "#{Time.current}: Found posts: #{Post.count}"
-    #puts "#{Time.current}: Found posts: #{Post.count}"
   end
 end
